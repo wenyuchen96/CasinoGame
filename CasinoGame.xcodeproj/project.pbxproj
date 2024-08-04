@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB90A9202C5FC19D00D74CCB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB90A91F2C5FC19D00D74CCB /* main.cpp */; };
+		EB90A9282C5FC1D300D74CCB /* function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB90A9262C5FC1D300D74CCB /* function.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EB90A91C2C5FC19D00D74CCB /* CasinoGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CasinoGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB90A91F2C5FC19D00D74CCB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EB90A9262C5FC1D300D74CCB /* function.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = function.cpp; sourceTree = "<group>"; };
+		EB90A9272C5FC1D300D74CCB /* function.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = function.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EB90A91F2C5FC19D00D74CCB /* main.cpp */,
+				EB90A9262C5FC1D300D74CCB /* function.cpp */,
+				EB90A9272C5FC1D300D74CCB /* function.hpp */,
 			);
 			path = CasinoGame;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB90A9202C5FC19D00D74CCB /* main.cpp in Sources */,
+				EB90A9282C5FC1D300D74CCB /* function.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
